@@ -103,7 +103,7 @@
     <properties>
         <scx.version>3.4.0</scx.version>
         <mssql-jdbc.version>12.8.1.jre11</mssql-jdbc.version>
-        <testng.version>7.10.2</testng.version>
+        <testng.version>7.11.0</testng.version>
     </properties>
     
 	
