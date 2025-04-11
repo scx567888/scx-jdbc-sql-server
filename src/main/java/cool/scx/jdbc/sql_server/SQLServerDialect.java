@@ -22,13 +22,13 @@ import java.sql.Statement;
 public class SQLServerDialect implements Dialect {
 
     private static final SQLServerDriver DRIVER = initDRIVER();
-    
+
     private final TypeHandlerSelector typeHandlerSelector = new TypeHandlerSelector();
 
     private static SQLServerDriver initDRIVER() {
         return new SQLServerDriver();
     }
-    
+
 
     @Override
     public boolean canHandle(String url) {
@@ -91,5 +91,5 @@ public class SQLServerDialect implements Dialect {
     public String quoteIdentifier(String identifier) {
         return "[" + identifier + "]";
     }
-    
+
 }
