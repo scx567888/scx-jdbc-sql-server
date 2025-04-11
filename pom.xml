@@ -12,15 +12,15 @@
 
     <artifactId>scx-jdbc-sql-server</artifactId>
     <packaging>jar</packaging>
-	<version>3.5.1</version>
+    <version>3.5.2</version>
 
     <name>SCX JDBC SQL Server</name>
     <url>https://github.com/scx567888/scx-jdbc-sql-server</url>
     <description>
         SCX JDBC SQL Server
     </description>
-	
-	<developers>
+
+    <developers>
         <developer>
             <id>scx567888</id>
             <name>scx567888</name>
@@ -99,13 +99,12 @@
         </dependency>
 
     </dependencies>
-	
+
     <properties>
-        <scx.version>3.5.1</scx.version>
+        <scx.version>3.5.2</scx.version>
         <mssql-jdbc.version>12.8.1.jre11</mssql-jdbc.version>
         <testng.version>7.10.2</testng.version>
     </properties>
-    
-	
+
 
 </project>
